@@ -2,27 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chinta Vishnu Vardhan - Computer Science student at IIIT Hyderabad, interested in Machine Learning and Geopolitics">
+  <meta name="author" content="Chinta Vishnu Vardhan">
+  
+  <!-- Open Graph meta tags for social media sharing -->
+  <meta property="og:title" content="Chinta Vishnu Vardhan - Portfolio">
+  <meta property="og:description" content="Computer Science student at IIIT Hyderabad, interested in Machine Learning and Geopolitics">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vishnuvardhanchinta01-droid.github.io/bio/">
+  
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chinta Vishnu Vardhan - Portfolio">
+  <meta name="twitter:description" content="Computer Science student at IIIT Hyderabad, interested in Machine Learning and Geopolitics">
+  
+  <title>Chinta Vishnu Vardhan - Portfolio</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+    
     body {
-      font-family: Arial, sans-serif;
-      max-width: 500px;
-      margin: 40px auto;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      max-width: 600px;
+      margin: 20px auto;
       background: #f8f9fa;
       color: #222;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.07);
       padding: 32px;
+      line-height: 1.6;
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        margin: 10px;
+        padding: 20px;
+        border-radius: 8px;
+      }
     }
     .profile-pic {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
       display: block;
-      margin: 0 auto 16px auto;
-      border: 2px solid #ddd;
+      margin: 0 auto 20px auto;
+      border: 3px solid #ddd;
       box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 114px;
+      text-align: center;
+    }
+    
+    .profile-pic::before {
+      content: "CV";
     }
     h1, h2 {
       text-align: center;
@@ -71,7 +109,7 @@
   </style>
 </head>
 <body>
-  <img src="cvv pp.jpg" alt="Profile Picture" class="profile-pic">
+  <div class="profile-pic"></div>
   <h1>Chinta Vishnu Vardhan</h1>
   <div class="details">
     Hyderabad · 
@@ -89,21 +127,21 @@
   <div class="education">
     <div class="section-title">Education</div>
     <p>
-      Mtech in Computer Science, IIIT Hyderabad<br>
+      <strong>Mtech in Computer Science</strong><br>
+      IIIT Hyderabad<br>
       2025 – 2027
     </p>
-  </div>
-  <div class="education">
-    <div class="section-title">Education</div>
     <p>
-      Btech in Computer Science, Gitam<br>
+      <strong>Btech in Computer Science</strong><br>
+      Gitam<br>
       2019 – 2023
     </p>
   </div>
   <div class="experience">
     <div class="section-title">Experience</div>
     <p>
-      Engineer, Tata Elxsi<br>
+      <strong>Engineer</strong><br>
+      Tata Elxsi<br>
       June 2023 – July 2025
     </p>
   </div>
